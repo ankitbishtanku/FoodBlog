@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Karma", sans-serif;
+}
+.navBar{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 85px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.navBar a{
+	color: black;
+	font-size: 23px;
+}
+.navBar p{
+	font-size: 23px;
+}
+.foodMenu{
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;	
+}
+.menuItem{
+	width: 22%;
+	margin-bottom: 60px;
+}
+.menuItem img{
+	width:275px;
+	height: 407px;
+}
+.mainDiv{
+	padding: 0px 75px;
+}
+.menuInfo{
+	text-align: center;
+}
+.menuInfo h1{
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.menuInfo p{
+	font-size: 14px;
+}
+#diffElse{
+	margin-top: 13px;
+}
+.forPage{
+	text-align: center;
+}
+.forPage a{
+	text-decoration: none;
+	color: black;
+	padding: 8px 16px
+}
+.forPage a:hover{
+	color: white;
+	background-color: black;
+}
+.uniqueAdd {
+	color: white!important;
+	background-color: black;
+}
+.uniqueAdd:hover{
+	color: black!important;
+	background-color: #ccc!important;
+}
+.forPage hr{
+	border-bottom: 1px solid #eee;
+    margin: 70px 0;
+}
+.foodChef{
+	text-align: center;
+}
+.foodChef h1{
+	font-weight: 400;
+	margin-bottom: 36px;
+}
+.foodChef h3{
+	margin: 35px 0 10px 0;
+}
+.foodChef h4{
+	font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.foodChef p{
+	text-align: center;
+    font-size: 15px;
+}
+.foodChef hr{
+	margin-top: 80px;
+}
+.lastPart{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.footerColumn{
+	width: 33%;
+}
+.footerColumn h1{
+	font-weight: 400;
+    font-size: 25px;
+}
+.lastSite p{
+	margin-top: 15px;
+}
+.lastSite a{
+	color: black;
+}
+.blogImage{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+    align-items: stretch;
+}
+.blogImage:hover{
+	background-color: #ccc
+}
+.blogImage img{
+	width: 50px;
+	margin-right: 20px;
+	right: 0;
+}
+.lastTags ul{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 31px;
+    align-items: center;
+}
+.mainTag{
+	background-color: black!important;
+	padding: 2px 3px!important;
+}
+.lastTags li{
+	list-style-type: none;
+    background-color: #616161;
+    padding: 0px 3px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
